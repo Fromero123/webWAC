@@ -1,0 +1,53 @@
+declare -gx NIX_PROFILES='/nix/var/nix/profiles/default /home/runner/.nix-profile'
+declare -gx HOME=/home/runner
+declare -gx REPLIT_PID1_VERSION=0.0.0-fa88a69
+declare -gx GIT_ASKPASS=replit-git-askpass
+declare -gx REPL_PUBKEYS='{"crosis-ci":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:1":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:latest":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","prod":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:1":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:2":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:3":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:4":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:5":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:latest":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","vault-goval-token":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:1":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:latest":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E="}'
+declare -gx REPL_IMAGE=gcr.io/marine-cycle-160323/nix:bf8590a3e2f0a8b70b7ca175eeed9074dffbfca9
+declare -gx PROMPT_DIRTRIM=2
+declare -gx NIXPKGS_ALLOW_UNFREE=1
+declare -gx COLORTERM=truecolor
+declare -gx REPLIT_ENVIRONMENT=production
+declare -gx NIX_PS1='\[\033[01;34m\]\w\[\033[00m\]\$ '
+declare -gx REPLIT_SUBCLUSTER=interactive
+declare -gx LANG=en_US.UTF-8
+declare -gx DIRENV_CONFIG=/etc/direnv
+declare -gx REPLIT_PID1_FLAG_NIXMODULES_BEFORE_REPLIT_NIX=1
+declare -gx LOCALE_ARCHIVE=/usr/lib/locale/locale-archive
+declare -gx REPL_OWNER_ID=32647371
+declare -gx REPL_ID=e228fd74-3b17-4160-926a-ad4747bf15ba
+declare -gx XDG_DATA_HOME=/home/runner/Wilde-Ateneo-Club/.local/share
+declare -gx DOCKER_CONFIG=/home/runner/Wilde-Ateneo-Club/.config/docker
+declare -gx LIBGL_DRIVERS_PATH=/nix/store/0lfnrz6nq5myv787cih78knzaqy9z9fc-mesa-23.1.9-drivers/lib/dri
+declare -gx __EGL_VENDOR_LIBRARY_FILENAMES=/nix/store/0lfnrz6nq5myv787cih78knzaqy9z9fc-mesa-23.1.9-drivers/share/glvnd/egl_vendor.d/50_mesa.json
+declare -gx REPLIT_CLUSTER=janeway
+declare -gx DENO_TLS_CA_STORE=system
+declare -gx REPL_OWNER=fpascuet
+declare -gx HOSTNAME=8dcf5b723242
+declare -gx REPLIT_PID1_FLAG_REPLIT_RTLD_LOADER=1
+declare -gx USER=runner
+declare -gx REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPLIT_DB_URL=https://kv.replit.com/v0/eyJhbGciOiJIUzUxMiIsImlzcyI6ImNvbm1hbiIsImtpZCI6InByb2Q6MSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25tYW4iLCJleHAiOjE3MjQzNTYzODUsImlhdCI6MTcyNDI0NDc4NSwiZGF0YWJhc2VfaWQiOiJlMjI4ZmQ3NC0zYjE3LTQxNjAtOTI2YS1hZDQ3NDdiZjE1YmEiLCJ1c2VyIjoiZnBhc2N1ZXQiLCJzbHVnIjoiV2lsZGUtQXRlbmVvLUNsdWIifQ.bBYT8gc6u_ezU3EAO_J-osf4bUQeGrBzTCzIpdOCdplkBxJAM39EM9mfmQ7FAnZvcD0iVQEPTbRjfcfSZTIXLw
+declare -gx REPLIT_DEV_DOMAIN=e228fd74-3b17-4160-926a-ad4747bf15ba-00-lqi9vemo9etg.janeway.replit.dev
+declare -gx XDG_CONFIG_HOME=/home/runner/Wilde-Ateneo-Club/.config
+declare -gx XDG_CACHE_HOME=/home/runner/Wilde-Ateneo-Club/.cache
+declare -gx REPL_IDENTITY=v2.public.Q2lSbE1qSTRabVEzTkMwellqRTNMVFF4TmpBdE9USTJZUzFoWkRRM05EZGlaakUxWW1FU0NHWndZWE5qZFdWMEdoRlhhV3hrWlMxQmRHVnVaVzh0UTJ4MVlpSWtaVEl5T0daa056UXRNMkl4TnkwME1UWXdMVGt5Tm1FdFlXUTBOelEzWW1ZeE5XSmhPTXZSeUE5YUZnb0hhbUZ1WlhkaGVSSUxhVzUwWlhKaFkzUnBkbVU9f5MCPyF7wHmFmT1PwV0rVMNed80XEc-Db1goUcw2XqgCdCo375Xzzmr8zm51k_UCndrq7ULzQDOyOR7ytlV5Ag.R0FFaUJtTnZibTFoYmhLUkNIWXlMbkIxWW14cFl5NVJNbVI2VTFjNWVsbFdhREJhTVd4U1lVWkJNMHN3Y0c5VFZYaEVWVVZqTW1KcVpGcFNNRlpQWlZWTmRtVldiR2hSVjJodVVtdGtjRmRWZEV0U01WWTFWRmR3YjJKV2NFVlpla0pOVmtVMWNGUldVbXBrUlRWRlVsUktUbEY2UVRGVVYzQmhZVVY0V0ZKdGRFOVNSMDEzVkdwS1MySlZNVlZXYld4YVZXMDVURkpYWkc5aVYwNUlVbTV3V2sweFduTmFSVXAyVW1zNVRtUnNTalZSVkdob1VURk9TbE5IUm5SU2JsWmhWMGRTYjFwV1NuWlVhM1J1WkVoQ2FXSnNTbk5aTWpGSFlXMVNTR0pFU21GVk1HdDRXVmh3U21SWFRrbFdiV3hwVWpKNGNWUkhjelZXYkVvMllVWkdVMDFJYUZKV1IzUjNUVVpaZDFacVJtcFhSMmgyVmtWa2IxUnNWa1pPVlZKWFVsaG9VMXBWVmpCT2JVWkdZa2Q0YTFaRmNERlZNR1JyVlRGT2NWUnFWbGRTVlZVNU16RmtUSFJxYTFOSFFVeE5Xa1p3WTBwSWVrTlhSemd0TUdwdmR6SkdNWFZRZVVGalNYbzJjMWhWVTNCeGFXNHpZbTkzTmxkUVZFSXpUbmRpTWxOcVZHd3hjVlJ5WW1wNk1EaEhTRlpaVmw5NVEwUXdRMmN1VWpCR1JtRlZTblJVYmxwcFlsUkdiMWx0YUUxWmEwWjFWMWhzVFdKclNYaFhWekUwWTBac05VNVdTazVpVmtreVZsUkdhMDFIVm5SVGJGcFVZbTVDVjFadE1UUlZNVkp5VlcxR1RsWnVRbGRWTW5SUFZrWmFXV0ZGVmxabGEwcHlWV3BCTVZOV1JuSlRiRnBPVW14d1UxWnRjRTlaVjFKWFlqTm9VMkpYYUZOV2FrcHZaRlpXV0dSSGRHbGlSVFZZV1d0V1QxWnRTbFZpUlZaV1lXdEtTRnBIZUhOV2JFcDFVbXhLVjFaWVFrcFdNbkJEWXpGa2MxSnNhR2hUUm5CVFZGVmtVMUV4V2tkYVJXUlNZbFZhU1ZkclZYaFZNREYwVld0MFYwMVdXbFJWVkVwS1pERlNjbUZHU2xkaE1YQjJWbFphYTJJeVNuTlVia3BwVTBWYVdGbHRkSGRVTVd4WFZXeGtUazFZUWtoWGExWXdZV3N4Y2xkc2JGZFNiV2hZVmtSR1lXUkhWa2xqUm1SWFlsWktTVlpHVWt0VU1rMTVVMnBhVm1GNmJGaFVWM2hMWWpGWmVVMVVVbFJOYTFwSFZGWldhMVpIU2taWGJGcGFWbnBGTUZkV1duTk9iRVpWVW0xd2FWSllRalpXUkVaWFdWZEZlVk5zYkZaV1JWcFhXV3RhWVdOc2NFaGxSVnBzVW01Q1JsWXlNWGRoUjBWNFkwYzVWMkZyV2xSVmVrWk9aVVphYzFOc1JsZFNSVW96VmpKMFlWZHRUblJqUlRGUVYwVTBlbHBGVmxwT1ZuQkZVbGhTYVdKVVZsRlVNR1JoVlcxS1dHRkVTbFJTVm5CNFZtdFdjbVJIVWtWaFJYQnBZbFp3VVZkRVNYaFdWVEYwV1hwU2FsZElRa1pWYTJSV1RrWmFSV0pHVW1oTlZrbzJWMjE0YjJKWFZuSmlla0pZVmxVeE5sZHRjM2RsYkdSV1RsaEtWRlpIVWxsWFYydDNUbFpLY2xWdE9VOWhWRVpNVkdwSk5WSkZlSE5UV0dSVFlURndiMVpzVm5kTlJscElUbGRHYUZZd2NGWlZiVEExVjIxS1dGVnFTbFpoYTNCUVZURmFUMlJXWkhSU2JFNVRaVzFuTUE9PQ
+declare -gx REPL_HOME=/home/runner/Wilde-Ateneo-Club
+declare -gx REPL_IDENTITY_KEY=k2.secret.nXW9tRv9hfSMFLR0F2LhlFtkJL-x3A5RPFC8ovTI9Ok5Qbw8Ys80m1YS6rGEuEw80JMtDErOEh67aceBEnfJMA
+declare -gx REPLIT_NIX_CHANNEL=stable-23_11
+declare -gx DISPLAY=:0
+declare -gx GIT_EDITOR=replit-git-editor
+declare -gx REPLIT_RTLD_LOADER=1
+read -r _new_path <<< "/nix/store/3ap7zfqp9lz48w5bm898mrr1xipnm1wc-pid1/bin:/nix/store/lngfsfhdp0nj38qqpklzdamwq22hdhn3-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+#PATH=/nix/store/3ap7zfqp9lz48w5bm898mrr1xipnm1wc-pid1/bin:/nix/store/lngfsfhdp0nj38qqpklzdamwq22hdhn3-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+if [ -e "/run/replit/env/last" ]; then read -r _last_path < <(\grep '^#PATH=' /run/replit/env/last | cut -f 2 -d =); fi
+_user_components="$(\tr : $'\n' <<< "${PATH:-}" |\grep -xv -f <(\tr : $'\n' <<< "${_last_path}") |\tr $'\n' :)"
+declare -gx PATH="${_user_components}${_new_path}"
+declare -gx NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPLIT_CLI=/nix/store/jg025sdg9pb5s73213ana0122lqhlras-pid1-0.0.1/bin/replit
+declare -gx SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPL_LANGUAGE=html
+declare -gx NIX_PATH=nixpkgs=/home/runner/.nix-defexpr/channels/nixpkgs-stable-23_11:/home/runner/.nix-defexpr/channels
+declare -gx REPLIT_RIPPKGS_INDICES=/nix/store/mfrw2kh7ppd5qmjwm5sj9c41lkh2hlij-rippkgs-indices
+declare -gx REPLIT_BASHRC=/nix/store/0j518h6mfyhxzbqbb6j3m3nj03k2w2pm-replit-bashrc/bashrc
+declare -gx REPL_SLUG=Wilde-Ateneo-Club
